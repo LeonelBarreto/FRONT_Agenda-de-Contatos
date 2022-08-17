@@ -1,21 +1,24 @@
 import './styles.css';
+import FecharIcone from '../../assets/fechar.svg';
 
-function ConfirmarModal(open, handleClose, handleConfirm, titulo, subtitulo, textoBotaoCancelar, textoBotaoConfirmar) {
-
-    
-
-
+function ConfirmarModal({ open, handleClose, handleConfirm, titulo, subtitulo, textoBtnConfirmar, textoBtnCancelar }) {
     return (
-        <div className='backdrop'>
-            <div className='modal'>
-                <h1>{titulo}</h1>
-                <span>{subtitulo}</span>
+        <>
+            {open &&
+                <div className='backdrop'>
+                    <div className='modal modal-confirmar'>
+                        <img src={FecharIcone} alt="fechar" className='fechar-icone' onClick={handleClose} />
+                        <h1>{titulo}</h1>
+                        <span>{subtitulo}</span>
 
-                <button className='btn-green'>{textoBotaoConfirmar}</button>
-                <button className='btn-red'>{textoBotaoCancelar}</button>
-
-            </div>
-        </div>
+                        <div className='container-btn'>
+                            <button className='btn-green btn-confirmar' onClick={handleConfirm}>{textoBtnConfirmar}</button>
+                            <button className='btn-red btn-cancelar' onClick={handleClose}>{textoBtnCancelar}</button>
+                        </div>
+                    </div>
+                </div>
+            };
+        </>
     );
 };
 

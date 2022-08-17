@@ -1,6 +1,10 @@
-.modal-confirmar {    
+.modal-adicionar {
     width: 476px;
-    height: 319px;
+    height: 563px;
+}
+
+.modal-adicionar h2 {
+    margin-bottom: 40px;
 }
 
 .container-btn button {
@@ -9,11 +13,15 @@
 }
 
 .btn-confirmar {
-    margin-top: 32px;
+    margin-top: 72px;
     margin-bottom: 0px;
 }
 
 .btn-cancelar {
     margin-top: 8px;
     margin-bottom: 0px;
+}
+
+.form-add input {
+    margin-bottom: 8px;
 }
