@@ -1,0 +1,13 @@
+.backdrop {
+    background-color: rgba(16, 15, 15, 0.56);
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,44 @@
+.container-cadastro {
+    display: flex;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-cadastro img {
+    width: 50%;
+}
+
+.left-cadastro {
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-cadastro h3 {
+    margin-bottom: 40px;
+}
+.left-cadastro form {
+    width: 400px;
+}
+
+.left-cadastro span a {
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.left-cadastro form input {
+    margin-bottom: 16px;
+}
+
+.left-cadastro form button:first-of-type {
+    margin-bottom: 72px;
+    margin-bottom: 8px;
+}
+
+.left-cadastro form button:last-of-type {
+    margin-bottom: 96px;
+}

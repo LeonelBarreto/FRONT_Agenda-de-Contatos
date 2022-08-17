@@ -1,0 +1,55 @@
+.container-login {
+    display: flex;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-login img {
+    width: 50%;
+}
+
+.right-login {
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-login span:first-child {
+    margin-bottom: 8px;
+
+    text-align: left;
+
+    width: 400px;
+}
+
+.right-login h1 {
+    margin-bottom: 32px;
+
+    text-align: left;
+
+    width: 400px;
+
+    font-size: 26px;
+}
+
+.right-login form {
+    width: 400px;
+}
+
+.right-login span a {
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.right-login form input {
+    margin-bottom: 16px;
+}
+
+.right-login form button {
+    margin-top: 72px;
+    margin-bottom: 96px;
+}

@@ -1,0 +1,22 @@
+button {
+    height: 50px;
+    width: 100%;
+
+    border: none;
+    border-radius: 8px;
+
+    color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.btn-green {
+    background-color: #04C45C;
+}
+
+.btn-red {
+    background-color: rgba(251, 6, 21, 0.65);
+}

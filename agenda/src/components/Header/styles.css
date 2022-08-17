@@ -1,0 +1,21 @@
+header {
+    width: 100%;
+    height: 70px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #134563;
+    color: #FFFFFF;
+
+    padding: 0 32px;
+}
+
+.logo {
+    height: 18px
+}
+
+.desconectar {
+    height: 18px;
+}
